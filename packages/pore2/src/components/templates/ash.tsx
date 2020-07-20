@@ -10,7 +10,7 @@ const AshTemplate: React.FC<Props> = (props) => {
 
   return (
     <>
-      <h1>Ash page!!</h1>
+      <h1>Ash page!!!</h1>
       <ul>
         {articles.length ? articles.map(article => (<li key={article.slug}>{article.title}</li>)) : (<p>loading...</p>)}
       </ul>
