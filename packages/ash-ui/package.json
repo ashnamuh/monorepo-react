@@ -1,6 +1,7 @@
 {
   "name": "ash-ui",
   "version": "1.0.1",
+  "private": true,
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
